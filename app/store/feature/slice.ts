@@ -25,7 +25,7 @@ const auth = createSlice({
   initialState,
   reducers: {
     submitUser: (state, action: PayloadAction<InitialState>) => {
-      state = action.payload;
+      return action.payload;
     },
   },
 });
